@@ -116,10 +116,14 @@ Obs: O link base já vem implantado
                         self.window['server'].update(server)
                         self.window['rg'].update(rg)
                         self.window['len_rg'].update(len_rg)
+                        self.window['warning'].update(' ')
 
                     except:
                         self.window['warning'].update(
                             'Endereço não encontrado')
+                        self.window['server'].update(' ')
+                        self.window['rg'].update(' ')
+                        self.window['len_rg'].update(' ')
 
                 elif not values['input'] or not values['user']:
                     self.window['warning'].update('Preencha todos os campos')

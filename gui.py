@@ -74,7 +74,7 @@ link: https://github.com/nataMamed/WebScraping/blob/main/data/emails_rgs.csv"""
 
                     except:
                         self.window['warning'].update('Endereço não encontrado')
-
+                        
                 elif not values['input'] or not values['user']:
                     self.window['warning'].update('Preencha todos os campos')
 
