@@ -1,5 +1,6 @@
 # User Finder
 
+![Alt text](img/demo.png "Title")
 
 Link com os arquivos do projeto: [Natã Mamede](https://github.com/nataMamed/WebScraping)
 
@@ -44,3 +45,4 @@ python app.py
 Ao abrir o app, a caixa de url já virá preenchida com a pagina web do meu GitHub, a qual possui os e-mails e rgs aleatórios gerados para teste,  basta então você marcar que irá extrair de uma url e inserir o nome do usuário procurado, você pode utilizar os nomes que estão [nesse link](https://github.com/nataMamed/WebScraping/blob/main/data/emails_rgs.csv). Exemplo de preenchimento:
 
                       *Os resultados são exibidos quando o botão procurar for pressionado*
+![Alt text](img/exemplo.png "Title")
