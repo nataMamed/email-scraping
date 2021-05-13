@@ -65,5 +65,8 @@ def save_data(filename, all_data):
         for data in all_data:
             writer.writerow(data)
 
-data = generate_data(600)
-save_data('emails_rgs', data)
+
+if __name__=='__main__':
+        
+    data = generate_data(600)
+    save_data('emails_rgs', data)
